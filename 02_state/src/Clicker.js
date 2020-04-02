@@ -20,10 +20,12 @@ class Clicker extends Component {
         console.log("Clicker mounted");
     }
 
-    incrementCounter = () => {
+    incrementCounter = (e) => {
+        e.persist();
+        console.log(e);
         console.log(this);  // Clicker
         this.setState({
-            counter : ++this.state.counter
+            counter : this.state.counter + 1
         });
     }
 
