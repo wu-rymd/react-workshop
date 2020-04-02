@@ -11,6 +11,7 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 
 class Content extends Component {
     componentDidMount() {
+        console.log("Content mounted");
     }
 
     render() {
