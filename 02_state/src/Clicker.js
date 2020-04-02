@@ -21,9 +21,10 @@ class Clicker extends Component {
     }
 
     incrementCounter = (e) => {
-        e.persist();
-        console.log(e);
-        console.log(this);  // Clicker
+        // e.persist();       // React-provided solution - remove SyntheticEvent
+        // console.log(e);
+        // console.log(this); // Clicker
+   
         this.setState({
             counter : this.state.counter + 1
         });
