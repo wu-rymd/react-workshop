@@ -21,7 +21,7 @@ class Clicker extends Component {
     }
 
     incrementCounter = () => {
-        console.log(this);
+        console.log(this);  // Clicker
         this.setState({
             counter : ++this.state.counter
         });
