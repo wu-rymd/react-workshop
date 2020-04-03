@@ -19,7 +19,7 @@ class List extends Component {
         return (
             <div style={listStyle}>
               <h1>My list</h1>
-              <h3>Exploring building list components from a JS array.</h3>
+              <h3>Explore building list components from a JS array.</h3>
               <Todo actionables={stuffTodo} />
             </div>
         );
