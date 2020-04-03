@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar'
-import Content from './Content'
-import Clicker from './Clicker'
+import Navbar from './Navbar';
+import Content from './Content';
+import Clicker from './Clicker';
 
 function App() {
   return (
