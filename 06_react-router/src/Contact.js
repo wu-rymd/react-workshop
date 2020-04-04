@@ -11,6 +11,12 @@ function Contact(props) {
     return (
         <div style={contactStyle}>
           <h1>Contact</h1>
+
+          <ul>
+            <li> <a href="/contact/michael">Michael</a> </li>
+            <li> <a href="/contact/john">John</a> </li>
+            <li> <a href="/contact/jane">Jane</a> </li>
+          </ul>
         </div>
     );
 }

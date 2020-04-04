@@ -6,9 +6,10 @@ import {
     Link
 } from 'react-router-dom';
 
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import ContactDetail from './ContactDetail';
 
 const navbarStyle = {
     backgroundColor: "gainsboro",
@@ -35,8 +36,9 @@ function Navbar(props) {
           </div>
 
           <Switch>
-            <Route path="/about"> <About /> </Route>
-            <Route path="/contact"> <Contact /> </Route>
+            <Route exact path="/about"> <About /> </Route>
+            <Route exact path="/contact"> <Contact/> </Route>
+            <Route exact path="/contact/:name"> <ContactDetail/> </Route>
             <Route path="/"> <Home /> </Route>
           </Switch>
           
