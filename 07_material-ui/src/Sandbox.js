@@ -26,8 +26,11 @@ class Sandbox extends Component {
               <hr />
               
               <Button color="primary" size="large">Hello World</Button>
+              <Button color="primary"
+                      size="large"
+                      variant="outlined">Hello World</Button>
               <CircularProgress />
-              <Switch />
+              <Switch color="primary" />
               <TextField label="Name" />
               <TextField
                   error
