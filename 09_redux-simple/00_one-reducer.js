@@ -5,7 +5,7 @@ const reducer = function(state, action) {
         return state + action.payload;
     if (action.type === "DEC")
         return state - action.payload;
-    return state
+    return state;
 }
 
 const store = createStore(reducer, 0);  // 0 is initial state

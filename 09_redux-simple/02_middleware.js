@@ -1,11 +1,11 @@
-import { createStore, applyMiddleware } from "redux"
+import { createStore, applyMiddleware } from "redux";
 
 const reducer = function(state, action) {
     if (action.type === "INC")
         return state + action.payload;
     if (action.type === "DEC")
         return state - action.payload;
-    return state
+    return state;
 }
 
 const logger = store => next => action => {
