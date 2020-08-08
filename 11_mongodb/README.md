@@ -1,0 +1,1 @@
+`npm install mongodb ; npm install mongod ; mongod`
